@@ -36,6 +36,7 @@
   },
   "scripts": {
     "build": "webpack --config ./webpack.config.js --mode production",
-    "build:dev": "webpack --config ./webpack.config.js --mode development"
+    "build:dev": "webpack --config ./webpack.config.js --mode development",
+    "is:bundle:es5": "es-check es5 ./dist/*.js"
   }
 }
